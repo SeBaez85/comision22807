@@ -1,0 +1,182 @@
+body,
+html {
+  height: 100%;
+}
+
+.fondo-card {
+  background-image: url(../img/fondo0.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media(max-width: 600px) {
+  .star-wars {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 0.75em;
+    text-align: center;
+    width: 25vw;
+    margin-top: 150vw;
+    margin-left: 36vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+  
+  .conoceme {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 0.75em;
+    text-align: center;
+    width: 20vw;
+  
+    margin-top: 250vw;
+    margin-left: 7vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+}
+
+@media(min-width: 600px) and (max-width: 768px) {
+  .star-wars {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 0.75em;
+    text-align: center;
+    width: 20vw;
+    margin-top: 72vw;
+    margin-left: 36vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+  
+  .conoceme {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 0.75em;
+    text-align: center;
+    width: 20vw;
+  
+    margin-top: 100vw;
+    margin-left: 20vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+  .star-wars {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 1em;
+    text-align: center;
+    width: 20vw;
+    margin-top: 58vw;
+    margin-left: 36vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+  
+  .conoceme {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 1em;
+    text-align: center;
+    width: 20vw;
+  
+    margin-top: 90vw;
+    margin-left: 20vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+  .star-wars {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 0.75em;
+    text-align: center;
+    width: 20vw;
+    margin-top: 20vw;
+    margin-left: 36vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+  
+  .conoceme {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 1em;
+    text-align: center;
+    width: 20vw;
+  
+    margin-top: 100vw;
+    margin-left: 20vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+}
+
+@media(min-width: 1200px){
+  .star-wars {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 1.25em;
+    text-align: center;
+    width: 20vw;
+    margin-top: 35vw;
+    margin-left: 36vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }
+  
+  .conoceme {
+    /* font-family: 'Allerta Stencil', sans-serif;*/
+    position: fixed;
+    font-family: "Rubik Wet Paint", cursive;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 1.25em;
+    text-align: center;
+    width: 20vw;
+  
+    margin-top: 45vw;
+    margin-left: 20vw;
+  
+    -webkit-transform: perspective(500px) rotateX(45deg);
+  }  
+}
+
+
+a {
+  color: white;
+}
